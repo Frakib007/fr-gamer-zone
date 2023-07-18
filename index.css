@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-dis {
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+
+}
+.body-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.body-text > li{
+    list-style: none;
+}
