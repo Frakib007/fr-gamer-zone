@@ -1,3 +1,6 @@
+*{
+    width: 100%vw;
+}
 /* nav section */
 .logo {
     display: flex;
@@ -384,9 +387,11 @@
  */
 footer {
     height: 636px;
-    flex-shrink: 0;
+    
     background: #0B0223;
-    align-items: center;
+    text-align: center;
+    
+
 }
 
 .logo-discrip-footer {
@@ -396,16 +401,21 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 .footer-title {
     display: flex;
-    margin-left: 750px;
+   
+    text-align: center;
 
-    padding-top: 100px;
+    
     gap: 20px;
     align-items: center;
-    text-align: center;
+    padding-top: 60px;
+    
+   justify-content:center
+   
 
 }
 
